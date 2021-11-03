@@ -7,7 +7,7 @@ void main() {
 void systemInformation() {
   print("OS: ${Platform.operatingSystem}");
   print("OS Version: ${Platform.operatingSystemVersion}");
-  print("OS Username: ${Platform.localHostname}");
+  print("OS HostName: ${Platform.localHostname}");
   print("CPU of Cores: ${Platform.numberOfProcessors / 2}");
   print("CPU of Threads: ${Platform.numberOfProcessors}");
   print("Locale: ${Platform.localeName}");
