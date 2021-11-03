@@ -8,7 +8,8 @@ void systemInformation() {
   print("OS: ${Platform.operatingSystem}");
   print("OS Version: ${Platform.operatingSystemVersion}");
   print("OS Username: ${Platform.localHostname}");
-  print("Number of cores: ${Platform.numberOfProcessors}");
+  print("CPU of Cores: ${Platform.numberOfProcessors / 2}");
+  print("CPU of Threads: ${Platform.numberOfProcessors}");
   print("Locale: ${Platform.localeName}");
   print("Path Separator: ${Platform.pathSeparator}");
   print("Dart Binary Path: ${Platform.executable}");
